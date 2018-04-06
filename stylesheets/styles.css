@@ -1,0 +1,118 @@
+nav {
+  background: white;
+  color: #3B3B3B;
+  box-shadow: none;
+}
+
+nav .brand-logo {
+  color: #3B3B3B;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+nav ul a {
+  color: #3B3B3B;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0 20px 5px 20px;
+}
+
+h2 {
+  margin: 100px 0 0 0;
+  border-left: 4px solid #405C4B;
+  padding: 0 0px 0 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: #405C4B;
+  line-height: 90%;
+
+}
+
+h3 {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  font-size: 18.75px;
+  letter-spacing: 2px;
+  margin: 0
+}
+
+.container {
+  max-width: 1024px;
+
+}
+
+.raised {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.port-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+.sideA {
+  background: #405C4B;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  width: 402px;
+  height: 214px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.sideB {
+  background: #fff;
+  border: 1px solid #405C4B;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  width: 402px;
+  height: 214px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-left: -22%;
+  margin-top: 5%;
+}
+
+.social-item {
+  font-size: 14px;
+  margin-left: 65%;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.social-icon {
+  width: 25px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.curly {
+  height: 80px;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
