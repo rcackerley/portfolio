@@ -69,8 +69,6 @@ p {
 .port-card {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  padding-bottom: 200px;
 }
 .sideA {
   background: #405C4B;
@@ -178,10 +176,13 @@ p {
 .work {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding-bottom: 200px;
 }
 
 .work .port-card {
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: column;
   margin-right: 6%;
 }
@@ -191,8 +192,8 @@ p {
   justify-content: center;
   padding: 20px;
   align-items: center;
-  width: 301.5px;
-  height: 160.5px;
+  width: 271.35px;
+  height: 144.45px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -203,11 +204,12 @@ p {
   display: flex;
   align-items: flex-start;
   padding: 20px;
-  width: 301.5px;
-  height: 160.5px;
+  width: 271.35px;
+  height: 144.45px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-  margin-top: -18%;
-  margin-left: 12%;
+  position: relative;
+  top: -130px;
+  left: 15px;
   padding-top: 20%;
   flex-direction: column;
 }
@@ -230,6 +232,15 @@ p {
   border: 1px solid #BF5C5C;
 }
 
+.politically-card-A {
+  background: #3F4A5A;
+  border: 1px solid #3F4A5A;
+}
+
+.politically-card-B {
+  border: 1px solid #3F4A5A;
+}
+
 .project-logo {
   width: 65%;
 }
@@ -238,9 +249,24 @@ p {
   width: 50%;
 }
 
+.plogo-vsmall {
+  width: 30%;
+}
+
 button {
   margin-right: 10px;
   background:
+}
+
+.piece {
+  margin-top: 30px;
+}
+
+.piece-content {
+  width: 300px;
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
 }
 
 .technologies {
@@ -261,7 +287,7 @@ button {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   padding: 5px 15px 5px 15px;
-  margin: 2px;
+  margin: 5px 7px 2px 2px;
   background: #EDEEE8;
   border-radius: 10px 10px 10px 10px;
 }
