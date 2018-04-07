@@ -14,6 +14,7 @@ nav ul a {
   color: #3B3B3B;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -28,14 +29,14 @@ h1 {
 
 h2 {
   margin: 100px 0 0 0;
-  border-left: 4px solid #405C4B;
+  border-left: 5px solid #3B3B3B;
   padding: 0 0px 0 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: lowercase;
   letter-spacing: 2px;
   font-size: 40px;
-  color: #405C4B;
+  color: #3B3B3B;
   line-height: 90%;
 
 }
@@ -48,6 +49,12 @@ h3 {
   font-size: 18.75px;
   letter-spacing: 2px;
   margin: 0
+}
+
+p {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman";
+  font-size: 16px;
+  color: #3B3B3B;
 }
 
 .container {
@@ -115,4 +122,158 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.location {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 20px 0 0 30px;
+}
+
+.location-icon {
+  width: 10px;
+  margin-right: 10px
+}
+
+.personal-photo {
+  width: 300px;
+  z-index: 1;
+  align-self: flex-start;
+  box-shadow: 0 6px 6px rgba(38, 38, 38, 0.16);
+  margin-left: -27%;
+}
+
+.about {
+  margin-right: -12%;
+}
+.shapes-photos {
+  margin-top: 100px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shape {
+  background: #EDEEE8;
+  width: 300px;
+  height: 375px;
+  margin-top: 15%;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.bg-override {
+  background: #F7F7F7;
+  padding-top:100px;
+}
+
+.bg-override h2 {
+  margin: 0;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .port-card {
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-right: 6%;
+}
+.work-sideA {
+  background: #362C1E;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  width: 301.5px;
+  height: 160.5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.work-sideB {
+  background: #fff;
+  border: 1px solid #405C4B;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  width: 301.5px;
+  height: 160.5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-top: -18%;
+  margin-left: 12%;
+  padding-top: 20%;
+  flex-direction: column;
+}
+
+.brewpub-card-A {
+  background: #362C1E;
+  border: 1px solid #362C1E;
+}
+
+.brewpub-card-B {
+  border: 1px solid #362C1E;
+}
+
+.undecided-card-A {
+  background: #BF5C5C;
+  border: 1px solid #BF5C5C;
+}
+
+.undecided-card-B {
+  border: 1px solid #BF5C5C;
+}
+
+.project-logo {
+  width: 65%;
+}
+
+.plogo-small {
+  width: 50%;
+}
+
+button {
+  margin-right: 10px;
+  background:
+}
+
+.technologies {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top:5px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.pill {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+  margin: 2px;
+  background: #EDEEE8;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.specific-skill {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  width: 90px;
+
+}
+.skill-icon {
+  width: 75px;
 }
