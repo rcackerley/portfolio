@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Robby Ackerley</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link rel="stylesheet" href="stylesheets/materialize.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -45,7 +46,7 @@
     </div>
   </div> -->
   <div id="about" class="container flex">
-    <div class="about">
+    <div class="about animated fadeInLeft">
       <h2>about</h2>
       <div class="inline">
         <div class="location"><i class="material-icons">email</i><a href="mailto:rcackerley@me.com">rcackerley@me.com</a></div>
@@ -64,20 +65,20 @@
       In sed ligula eu magna eleifend pellentesque blandit vel
       tortor.</p>
       <div class="inline">
-        <div class="location"><img class="location-icon" src="images/icons/github.png">@rcackerley</div>
-        <div class="location"><img class="location-icon" src="images/icons/linked.png">/rcackerley</div>
-        <div class="location"><img class="location-icon" src="images/icons/monogram.png">@rcackerley</div>
+        <div class="location"><img class="location-icon" src="images/icons/github.png"><a href="https://github.com/rcackerley">@rcackerley</a></div>
+        <div class="location"><img class="location-icon" src="images/icons/linked.png"><a href="https://www.linkedin.com/in/rcackerley/">/rcackerley</a></div>
+        <div class="location"><img class="location-icon" src="images/icons/monogram.png"><a href="https://medium.com/@rcackerley">@rcackerley</a></div>
       </div>
-      <p><a href="#">View Resume</a> | <a href="#">View Github</a>
+      <p><a href="assets/ackerley.pdf">View Resume</a> | <a href="https://github.com/rcackerley">View Github</a>
     </div>
     <div class="shapes-photos">
-      <div class="shape"></div>
-      <img class="personal-photo" src="images/robstar.jpg">
+      <div class="shape animated fadeInRight"></div>
+      <img class="personal-photo animated fadeInRight" src="images/robstar.jpg">
     </div>
   </div>
   <div id="work" class="bg-override">
     <div class="container">
-      <h2>work</h2>
+      <h2 class="animated fadeInUp">work</h2>
       <div class="work">
         <div class="piece">
           <div class="port-card">
@@ -207,6 +208,7 @@
     </div>
   </div> -->
   <script src="scripts/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
