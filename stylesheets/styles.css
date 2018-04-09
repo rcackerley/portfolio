@@ -1,13 +1,19 @@
 nav {
   background: white;
-  color: #3B3B3B;
+  color: white;
   box-shadow: none;
+  margin-top: 20px;
+}
+
+.nav-bg {
+  background: white;
 }
 
 nav .brand-logo {
   color: #3B3B3B;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  width: 160px;
 }
 
 nav ul a {
@@ -18,7 +24,7 @@ nav ul a {
 }
 
 h1 {
-  color: white;
+  color: #4b4a4a;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-transform: lowercase;
@@ -53,6 +59,19 @@ h3 {
 
 p {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman";
+  font-size: 18px;
+  color: #3B3B3B;
+  margin-bottom: 0;
+}
+
+p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+ul {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman";
   font-size: 16px;
   color: #3B3B3B;
 }
@@ -64,6 +83,8 @@ p {
 
 .raised {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin-top: 100px;
+  padding-bottom: 200px;
 }
 
 .port-card {
@@ -127,11 +148,13 @@ p {
   font-weight: 300;
   letter-spacing: 1px;
   margin: 20px 0 0 30px;
+  display: flex;
 }
 
 .location-icon {
   width: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+  align-self: center;
 }
 
 .personal-photo {
@@ -152,6 +175,10 @@ p {
   justify-content: flex-end;
 }
 
+.bg-override .shapes-photos {
+  margin-top: 0px;
+}
+
 .shape {
   background: #EDEEE8;
   width: 300px;
@@ -159,9 +186,33 @@ p {
   margin-top: 15%;
 }
 
+.shape2 {
+  background: #F4F4F2;
+  width: 300px;
+  height: 375px;
+  z-index: 1;
+  align-self: flex-start;
+  box-shadow: 0 6px 6px rgba(38, 38, 38, 0.16);
+  margin-left: -27%;
+
+}
+
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column;
+  }
+  .about {
+    margin-right: 0;
+  }
+}
 .flex {
   display: flex;
   margin-bottom: 100px;
+}
+
+.bg-override .flex {
+  margin-bottom: 0;
+  padding-bottom: 100px;
 }
 
 .bg-override {
@@ -281,6 +332,7 @@ button {
   flex-wrap: wrap;
   margin-top: 20px;
   justify-content: flex-start;
+  margin-bottom: 100px;
 }
 
 .pill {
@@ -303,3 +355,31 @@ button {
 .skill-icon {
   width: 75px;
 }
+
+.inline {
+  display: flex;
+  margin-top: 10px;
+  }
+
+@media (max-width: 1280px) {
+  .inline {
+    flex-wrap: wrap;;
+  }
+}
+
+  .inline .location {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .inline .location-icon {
+    width: 18px;
+  }
+
+  .card-logo {
+    width: 25%;
+  }
+
+  i {
+    margin-right: 10px;
+  }

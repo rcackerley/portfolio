@@ -7,23 +7,25 @@
   <title>Robby Ackerley</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link rel="stylesheet" href="stylesheets/materialize.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Ackerley</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">about</a></li>
-          <li><a href="#">work</a></li>
-          <li><a href="#">skills</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="nav-bg">
+    <div class="container">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#"><img class="brand-logo" src="images/logo-3.png"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#skills">skills</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
-  <div class="raised">
+  <!-- <div class="raised">
     <div class="container">
       <div class="port-card">
         <div class="sideA">
@@ -41,11 +43,15 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container flex">
+  </div> -->
+  <div id="about" class="container flex">
     <div class="about">
       <h2>about</h2>
-      <div class="location"><img class="location-icon" src="images/icons/marker.png">atlanta, ga</div>
+      <div class="inline">
+        <div class="location"><i class="material-icons">email</i><a href="mailto:rcackerley@me.com">rcackerley@me.com</a></div>
+        <div class="location"><i class="material-icons">phone_iphone</i><a href="tel:7062027841">706-202-7841</a></div>
+      </div>
+      <!-- <div class="location"><img class="location-icon" src="images/icons/marker.png">atlanta, ga</div> -->
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Donec vitae ullamcorper dui. In nunc libero, laoreet id
       sagittis nec, pretium nec felis. Aliquam metus nisl, euismod
@@ -57,13 +63,19 @@
       eleifend. Suspendisse vel mollis ligula, non facilisis diam.
       In sed ligula eu magna eleifend pellentesque blandit vel
       tortor.</p>
+      <div class="inline">
+        <div class="location"><img class="location-icon" src="images/icons/github.png">@rcackerley</div>
+        <div class="location"><img class="location-icon" src="images/icons/linked.png">/rcackerley</div>
+        <div class="location"><img class="location-icon" src="images/icons/monogram.png">@rcackerley</div>
+      </div>
+      <p><a href="#">View Resume</a> | <a href="#">View Github</a>
     </div>
     <div class="shapes-photos">
       <div class="shape"></div>
       <img class="personal-photo" src="images/robstar.jpg">
     </div>
   </div>
-  <div class="bg-override">
+  <div id="work" class="bg-override">
     <div class="container">
       <h2>work</h2>
       <div class="work">
@@ -75,6 +87,7 @@
             <div class="work-sideB brewpub-card-B"></div>
             <div class="piece-content">
               <p>Brewpub is an app that pairs books with beers and allows users to rate and browse their personal pairings.</p>
+              <p><a href="#">View on Github</a> | <a href="#">View Live Demo</a></p>
               <div class="technologies">
                 <div class="pill">node.js</div>
                 <div class="pill">express.js</div>
@@ -93,6 +106,7 @@
             <div class="work-sideB undecided-card-B"></div>
             <div class="piece-content">
               <p>Undecided is a native iOS app that allows user to input desired restaurants and then the app will randomly choose one for you.</p>
+              <p><a href="#">View on Github</a> | <a href="#">View Live Demo</a></p>
               <div class="technologies">
                 <div class="pill">swift</div>
                 <div class="pill">core data</div>
@@ -109,6 +123,7 @@
             <div class="work-sideB politically-card-B"></div>
             <div class="piece-content">
               <p>Undecided is a native iOS app that allows user to input desired restaurants and then the app will randomly choose one for you.</p>
+              <p><a href="#">View on Github</a> | <a href="#">View Live Demo</a></p>
               <div class="technologies">
                 <div class="pill">node.js</div>
                 <div class="pill">react</div>
@@ -120,7 +135,7 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div id="skills" class="container">
     <h2>skills</h2>
     <div class="skills">
       <div class="specific-skill">
@@ -167,7 +182,30 @@
       </div>
     </div>
   </div>
-  <div class="container"></div>
+  <!-- <div id="contact" class="bg-override">
+    <div class="container flex">
+      <div class="about">
+        <h2>contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec vitae ullamcorper dui. In nunc libero, laoreet id
+        sagittis nec, pretium nec felis. Aliquam metus nisl, euismod
+        quis erat ac, tincidunt varius leo. Cras venenatis felis ac
+        aliquam tempus. Nullam tellus nibh, fringilla eu maximus
+        maximus, cursus vitae nunc.</p>
+        <ul>
+          <li>rcackerley@me.com</li>
+          <li>706-202-7841</li>
+          <li>@rcackerley</li>
+          <li>/rcackerley</li>
+      </div>
+      <div class="shapes-photos">
+        <div class="shape"></div>
+        <div class="shape2">
+          <img class="car-logo" src="images/logo-cards.png">
+        </div>
+      </div>
+    </div>
+  </div> -->
   <script src="scripts/materialize.js"></script>
   <script src="scripts/main.js"></script>
 </body>
