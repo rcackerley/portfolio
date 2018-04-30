@@ -165,6 +165,16 @@ ul {
   margin-left: -27%;
 }
 
+@media (max-width: 1215px) {
+  .personal-photo {
+    width: 200px;
+    z-index: 1;
+    align-self: flex-start;
+    box-shadow: 0 6px 6px rgba(38, 38, 38, 0.16);
+    margin-left: -27%;
+  }
+}
+
 .about {
   margin-right: -12%;
 }
@@ -186,6 +196,14 @@ ul {
   margin-top: 15%;
 }
 
+@media (max-width: 1215px) {
+  .shape {
+    background: #EDEEE8;
+    width: 200px;
+    height: 250px;
+    margin-top: 15%;
+  }
+}
 .shape2 {
   background: #F4F4F2;
   width: 300px;
@@ -198,6 +216,13 @@ ul {
 }
 
 @media (max-width: 800px) {
+  .shape {
+    width: 300px;
+    height: 375px;
+  }
+  .personal-photo {
+    width: 300px;
+  }
   .flex {
     flex-direction: column;
   }
