@@ -251,7 +251,7 @@ ul {
 
 .work {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 70px;
   padding-bottom: 200px;
@@ -300,12 +300,12 @@ ul {
 }
 
 .undecided-card-A {
-  background: #BF5C5C;
-  border: 1px solid #BF5C5C;
+  background: #2c6141;
+  border: 1px solid #2c6141;
 }
 
 .undecided-card-B {
-  border: 1px solid #BF5C5C;
+  border: 1px solid #2c6141;
 }
 
 .politically-card-A {
@@ -336,6 +336,7 @@ button {
 
 .piece {
   margin-top: 30px;
+      margin-right: 35px
 }
 
 .piece-content {
