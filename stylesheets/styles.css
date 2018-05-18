@@ -409,3 +409,12 @@ button {
   i {
     margin-right: 10px;
   }
+
+.bpub-card-A {
+  background: #f2f2f2;
+  border: 1px solid #362C1E;
+}
+
+.bpub-card-B {
+  border: 1px solid #362C1E;
+}
